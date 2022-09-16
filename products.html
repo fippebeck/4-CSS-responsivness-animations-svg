@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 1. Öppna DevTools och notera varningar/fel. Rätta till felen (meta-taggar). Visas fel med JavaScript ignoreras dessa.
+         2. Lägg till andra nödvändiga meta-taggar: författare, beskrivning, nyckelord, etc.
+         3. Skapa en extern css-fil i en mapp vid namn style, och länka in den -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Upggift">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+  </head>
+  <body>
+    <!-- 4. Varför är texten "Sektion 1" placerade inuti en section mindre än texten "Positionering CSS" i header, då de båda är 
+            inuti en h1? Ändra så de äuppför sig likadant, efter du förstått svaret.
+
+            Detta är designat för att <h1>-taggen ska bete sig så här, dvs. 
+            minska storleken speciellt för <artikel>, <aside>, <nav>, <section> 
+            och den kommer att fortsätta minska eftersom strukturen blir djupare, dvs. 
+            <artikel> inuti <artikel> inuti <artikel> så kommer storleken på varje nivå att minska.
+
+         5. Positionera innehållet efter uppgiftens wireframe. Använd enbart display, float och position
+            Kika inte på facit förrän du provat själv. -->
+            <header>
+              <img src="logovit.svg" alt="logo" height="70px">
+      
+          </header>
+          <div class="navbar">
+            <div class="nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </div>  
+              <div class="logo">
+                <img src="logovit.svg" alt="logo" height="45px">
+              </div>
+              <div class="menu-items">
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="news.html">News</a></li> 
+                <li><a href="products.html">Products</a></li> 
+                <li><a href="about.html">About</a></li> 
+                <li><a href="contact.html">Contact</a></li> 
+              </div>
+            </div>
+          </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="news.html">News</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="subheader">
+      <h2>Products</h2>
+    </div>
+    <section>
+      <div class="listing-section">
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-6"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 1</h2>
+            <h3 class="price">$45.99</h3>
+            <p class="description">A bluetooth headset!</p>
+            <button type="button" name="item-1-button" id="item-1-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-7"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 2</h2>
+            <h3 class="price">$404.99</h3>
+            <p class="description">A bluetooth headset!</p>
+            <button type="button" name="item-2-button" id="item-2-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-5"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 3</h2>
+            <h3 class="price">$212.99</h3>
+            <p class="description">A bluetooth headset!</p>
+            <button type="button" name="item-3-button" id="item-3-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-4"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 4</h2>
+            <h3 class="price">$41.99</h3>
+            <input type="text" name="item-4-quantity" id="item-4-quantity" value="1">
+            <button type="button" name="item-4-button" id="item-4-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-5"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 5</h2>
+            <h3 class="price">$40.99</h3>
+            <p class="description">A bluetooth headset!</p>
+            <button type="button" name="item-5-button" id="item-5-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-6"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 6</h2>
+            <h3 class="price">$49.99</h3>
+            <p class="description">A bluetooth headset!</p>
+            <button type="button" name="item-6-button" id="item-6-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-7"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 7</h2>
+            <h3 class="price">$24.99</h3>
+            <p class="description">A bluetooth headset!</p>
+            <button type="button" name="item-7-button" id="item-7-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-8"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 8</h2>
+            <h3 class="price">$23.99</h3>
+            <p class="description">A bluetooth headset</p>
+            <button type="button" name="item-8-button" id="item-8-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-6"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 9</h2>
+            <h3 class="price">$39.99</h3>
+            <p class="description">A bluetooth headset</p>
+            <button type="button" name="item-9-button" id="item-9-button">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="image-box">
+            <div class="images" id="image-5"></div>
+          </div>
+          <div class="text-box">
+            <h2 class="item">Headset 10</h2>
+            <h3 class="price">$40.99</h3>
+            <p class="description">A bluetooth headset</p>
+            <button type="button" name="item-10-button" id="item-10-button">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </section>
+      <footer>
+        <p>© 2022 Tekniknissen. Alla rättigheter reserverade.</p>
+      </footer>
+  </body>
+</html>

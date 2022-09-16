@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 1. Öppna DevTools och notera varningar/fel. Rätta till felen (meta-taggar). Visas fel med JavaScript ignoreras dessa.
+         2. Lägg till andra nödvändiga meta-taggar: författare, beskrivning, nyckelord, etc.
+         3. Skapa en extern css-fil i en mapp vid namn style, och länka in den -->
+         <meta charset="UTF-8" />
+         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+         <meta name="description" content="Upggift">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <link rel="stylesheet" type="text/css" href="style/style.css" /> 
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- 4. Varför är texten "Sektion 1" placerade inuti en section mindre än texten "Positionering CSS" i header, då de båda är 
+            inuti en h1? Ändra så de äuppför sig likadant, efter du förstått svaret.
+
+            Detta är designat för att <h1>-taggen ska bete sig så här, dvs. 
+            minska storleken speciellt för <artikel>, <aside>, <nav>, <section> 
+            och den kommer att fortsätta minska eftersom strukturen blir djupare, dvs. 
+            <artikel> inuti <artikel> inuti <artikel> så kommer storleken på varje nivå att minska.
+
+         5. Positionera innehållet efter uppgiftens wireframe. Använd enbart display, float och position
+            Kika inte på facit förrän du provat själv. -->
+    <header>
+        <img src="logovit.svg" alt="logo" height="70px">
+
+    </header>
+    <div class="navbar">
+        <div class="nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+          <div class="logo">
+            <img src="logovit.svg" alt="logo" height="45px">
+          </div>
+          <div class="menu-items">
+           <li><a href="index.html">Home</a></li> 
+           <li><a href="news.html">News</a></li> 
+           <li><a href="products.html">Products</a></li> 
+           <li><a href="about.html">About</a></li> 
+           <li><a href="contact.html">Contact</a></li> 
+          </div>
+        </div>
+      </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="subheader">
+        <h2>News</h2>
+      </div>
+    <section>
+    <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Unagi launches Model One Voyager</h2>
+            <h5>Unagi launches the updated Model One Voyager, a subscribable scooter, Sep 2, 2022</h5>
+            <img class="fakeimg" src="https://techcrunch.com/wp-content/uploads/2022/09/Deep-Cobalt_Centered-Large.jpeg?w=1390&crop=1" alt="Sko" width="693" height="424">
+            <div class="arttext">
+Unagi is perhaps best known for its Model One and its (now cancelled) Model Eleven scooter. Today, the company announced it has a new micromobility transportation tool in the works, the Voyager. 
+It packs significantly more range, power, acceleration and smart mobile app features while keeping the lightweight and portable design of its predecessor. The company is embracing a subscription model to keep prices reasonable.
+              
+Model One Voyager differs from its earlier model in a few important ways. The range goes from 12 to 20 miles, while adding less than a pound of weight. The Voyager also adds a bunch of smartphone features via an app, including scooter status, configuration, app-based locking and account management. 
+
+The Voyager can deliver up to 1,000 watts of peak power and 32 Nm of torque, a quarter more than the old version. The additional power also gives the new scooter a 25% improvement in acceleration and braking power.</div>
+            </div>
+          <div class="card">
+            <h2>Seattle startup ModusBox</h2>
+            <h5>ModusBox spins out PortX into new financial services company and raises $10M, Sep 2, 2022</h5>
+            <img class="fakeimg" src="https://cdn.geekwire.com/wp-content/uploads/2022/09/portX-630x424.png" alt="Sko" width="693" height="424">
+            <div class="arttext">
+Seattle-based ModusBox is taking half of its financial services technology business and spinning it out into a separate startup called PortX, fueled by $10 million in new funding, the company announced Tuesday.
+The Series A cash for PortX is in addition to $7.5 million that ModusBox previously raised in April. Seattle venture capital firm Fuse, which itself spun out of Ignition Partners in 2020, led the round, along with BankTech Ventures.
+              
+ModusBox and PortX CEO David Wexler said in a news release that ModusBox had been operating complementary yet independent sides of its business for several years.
+Founded in 2013, ModusBox focused on design, development, and support for financially inclusive, national-level real-time payment networks. PortX is focused on financial services integration software that unlocks access to banking core data, eliminates vendor dependencies, and enables embedded banking-as-a-service solutions.</div>
+            </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>The team</h2>
+            <img class="fakeimg" src="https://images.pexels.com/photos/3184398/pexels-photo-3184398.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Sko" width="300" height="170">
+            <p>Some text about me in culpa qui officia deserunt mollit anim.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="card">
+            <h3>Popular Post</h3>
+            <br>Seattle startup ModusBox</br>
+            <img class="fakeimg" src="https://cdn.geekwire.com/wp-content/uploads/2022/09/portX-630x424.png" alt="Sko" width="200" height="110">
+            <br>Unagi launches Model One Voyager</br>
+            <img class="fakeimg" src="https://techcrunch.com/wp-content/uploads/2022/09/Deep-Cobalt_Centered-Large.jpeg?w=1390&crop=1" alt="Sko" width="200" height="110">
+          </div>
+          <div class="card">
+            <h2>Follow Me</h2>
+            <div class ="socials">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed quam nunc. Quisque hendrerit a nulla at dictum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <p>© 2022 Tekniknissen. Alla rättigheter reserverade.</p>
+    </footer>
+</body>
+</html>

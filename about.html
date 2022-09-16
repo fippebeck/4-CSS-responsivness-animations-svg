@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- 1. Öppna DevTools och notera varningar/fel. Rätta till felen (meta-taggar). Visas fel med JavaScript ignoreras dessa.
+         2. Lägg till andra nödvändiga meta-taggar: författare, beskrivning, nyckelord, etc.
+         3. Skapa en extern css-fil i en mapp vid namn style, och länka in den -->
+         <meta charset="UTF-8" />
+         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+         <meta name="description" content="Upggift">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <link rel="stylesheet" type="text/css" href="style/style.css" /> 
+</head>
+<body>
+    <!-- 4. Varför är texten "Sektion 1" placerade inuti en section mindre än texten "Positionering CSS" i header, då de båda är 
+            inuti en h1? Ändra så de äuppför sig likadant, efter du förstått svaret.
+
+            Detta är designat för att <h1>-taggen ska bete sig så här, dvs. 
+            minska storleken speciellt för <artikel>, <aside>, <nav>, <section> 
+            och den kommer att fortsätta minska eftersom strukturen blir djupare, dvs. 
+            <artikel> inuti <artikel> inuti <artikel> så kommer storleken på varje nivå att minska.
+
+         5. Positionera innehållet efter uppgiftens wireframe. Använd enbart display, float och position
+            Kika inte på facit förrän du provat själv. -->
+            <header>
+                <img src="logovit.svg" alt="logo" height="70px">
+        
+            </header>
+            <div class="navbar">
+                <div class="nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                      <span class="line line1"></span>
+                      <span class="line line2"></span>
+                      <span class="line line3"></span>
+                    </div>  
+                  <div class="logo">
+                    <img src="logovit.svg" alt="logo" height="45px">
+                  </div>
+                  <div class="menu-items">
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="news.html">News</a></li> 
+                    <li><a href="products.html">Products</a></li> 
+                    <li><a href="about.html">About</a></li> 
+                    <li><a href="contact.html">Contact</a></li> 
+                  </div>
+                </div>
+              </div>
+      <nav>
+        <ul>
+        <a href="index.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </ul>
+      </nav>
+    <div class="subheader">
+        <h2>About us</h2>
+      </div>
+    <section>
+     <h2>Meet our team</h2>
+     <div class="about-us">
+     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat id tellus vitae laoreet. Maecenas sodales velit eros, sit amet varius ex eleifend in. Quisque scelerisque turpis a gravida gravida. Nullam vitae sollicitudin velit. Cras sed quam nunc. Quisque hendrerit a nulla at dictum. Integer elementum tempor elit, eget convallis metus luctus imperdiet. In dapibus ultricies nibh vel ullamcorper.
+        Integer in nisl sed dolor malesuada ornare. Vestibulum id eros velit. Nullam condimentum quam nec tempus tristique. Quisque ac elit eget dui vehicula auctor. Duis laoreet cursus ligula sed pharetra. Mauris id purus vitae urna imperdiet tempor eget eu ex. Fusce semper massa at dignissim condimentum. Ut velit nulla, cursus id erat ac, tristique auctor tellus. Etiam rhoncus nunc gravida molestie rhoncus. Nam id justo ut arcu malesuada molestie.</h3>
+    </div>
+        <div class="flex-container">
+        <li>
+        <img class="item" src="https://images.pexels.com/photos/1181695/pexels-photo-1181695.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Sko" width="250" height="370" alt="Example image" class="about" >
+       <h3>Robin - CFO</h3>
+    </li>
+        <li>
+        <img class="item" src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Sko" width="250" height="370" class="about">
+        <h3>Charlotte - CEO</h3>
+    </li>
+         <li>  
+        <img class="item" src="https://images.pexels.com/photos/1181725/pexels-photo-1181725.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Sko" width="250" height="370" alt="Example image" class="about">
+        <h3>Charlotte - COO</h3>
+    </li>
+       </div>
+    </section>
+    <footer>
+        <p>© 2022 Tekniknissen. Alla rättigheter reserverade.</p>
+    </footer>
+</body>
+</html>
